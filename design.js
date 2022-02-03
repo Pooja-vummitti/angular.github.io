@@ -2,7 +2,7 @@ var myapp = angular.module('design', []);
       /*Dependency Injection*/
       myapp.controller('designctrl',function($scope,$http)
 {
-   $http.get('https://Pooja-vummitti/angular.github.io/design.json')
+   $http.get('https://pooja-vummitti.github.io/angular.github.io/design.json')
    .success(function(response)
 {
   $scope.names=response.design;
